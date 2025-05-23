@@ -16,7 +16,7 @@ const mongoose=require('mongoose')
 //     console.log('mongodb  is connected')
 // })
 
-mongoose.connect('mongodb+srv://manjupatat80:Manju@123@blogify.pnbfyf0.mongodb.net/?retryWrites=true&w=majority&appName=Blogify').then(e =>{
+mongoose.connect('mongodb+srv://manjupatat80:Manju%40123@blogify.pnbfyf0.mongodb.net/?retryWrites=true&w=majority&appName=Blogify').then(e =>{
     console.log('mongodb  is connected')
 })
 
