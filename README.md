@@ -2,7 +2,7 @@
 
 A full-stack Blog Application built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js). Users can register, login, create, read, update, and delete blog posts. The app supports Markdown, image uploads, and authentication using JWT.
 
-![mern-blog-banner](https://your-screenshot-or-banner-url.com)
+//![mern-blog-banner](https://your-screenshot-or-banner-url.com)
 
 ## 🚀 Features
 
@@ -61,37 +61,31 @@ mern-blog/
 ```bash
 git clone https://github.com/Manjupatat/mern-blog.git
 cd mern-blog
-Set up Backend
+```
+2. Set up Backend
 
-bash
-Copy
-Edit
+```bash
 cd backend
 npm install
+```
 # Create a .env file with the following:
+```
 # PORT=5000
 # MONGO_URI=your_mongodb_connection_string
 # JWT_SECRET=your_jwt_secret
+```
+```bash
 npm start
-Set up Frontend
-
-bash
-Copy
-Edit
-cd ../frontend
-npm install
-npm start
-Visit http://localhost:3000 in your browser.
+```
 
 🔐 Environment Variables
 Create a .env file in the /backend folder with:
 
-env
-Copy
-Edit
+```
 PORT=5000
 MONGO_URI=your_mongo_connection_uri
 JWT_SECRET=your_jwt_secret
+```
 📸 Screenshots
 Add screenshots or GIFs of your app here for better visibility.
 
