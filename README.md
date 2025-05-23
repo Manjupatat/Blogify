@@ -9,15 +9,9 @@ A full-stack Blog Application built with the **MERN stack** (MongoDB, Express.js
 - Create, Edit, and Delete Blog Posts
 - Markdown support for blog content
 - Image Upload using `Multer`
-- Responsive UI built with React
 - RESTful API using Express.js and MongoDB
 
 ## 🛠️ Tech Stack
-
-**Frontend**  
-- React.js  
-- Axios  
-- React Router DOM  
 
 **Backend**  
 - Node.js  
@@ -38,26 +32,24 @@ A full-stack Blog Application built with the **MERN stack** (MongoDB, Express.js
 
 ```
 mern-blog/
-├── backend/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── uploads/
-│ ├── .env
-│ ├── server.js
+├── controllers/
+├── models/
+├── routes/
+├── uploads/
+├── .env
+├── server.js
 ├── README.md
 ```
 ## ⚙️ Installation
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Manjupatat/mern-blog.git
-cd mern-blog
+git clone https://github.com/Manjupatat/Blogify.git
+cd Blogify
 ```
 2. Set up Backend
 
 ```bash
-cd backend
 npm install
 ```
 # Create a .env file with the following:
