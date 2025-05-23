@@ -1,0 +1,34 @@
+<p>post id: <%=blog.id %></p>
+<form
+  action="/blog/<%=t.id %>?_method=PATCH"
+  method="post"
+>
+  <textarea name="content" id="content">
+            <%=blog.body %>
+        </textarea
+  >
+  <button>Update</button>
+</form>
+
+
+ <title>Add New Blog</title>
+    <%-include('./base.ejs')%>
+    <div class="container mt-3">
+     <form action="/blog/<%= blog.id %>" method="post" enctype="multipart/form-data">
+      <div class="mb-3">
+          <label for="coverImage" class="form-label">Image</label>
+          <input type="file" accept=".jpg, .png, .jpeg|image/*" class="form-control" id="coverImage" name="coverImage"/>
+      </div>
+        <div class="mb-3">
+        <div class="mb-3">
+          <label for="title" class="form-label"><%=blog.title %></label>
+          <input type="text" class="form-control" id="title" name="title"/>
+          </div>
+        <div class="mb-3">
+          <label for="body" class="form-label">Description</label>
+          <textarea class="form-control" id="body" name="body"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  
