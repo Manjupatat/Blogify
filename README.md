@@ -1,19 +1,41 @@
-mern-blog/
-├── backend/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── uploads/
-│ ├── .env
-│ ├── server.js
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── App.js
-│ │ ├── index.js
-├── README.md
+# MERN Blog App 📝
+
+A full-stack Blog Application built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js). Users can register, login, create, read, update, and delete blog posts. The app supports Markdown, image uploads, and authentication using JWT.
+
+![mern-blog-banner](https://your-screenshot-or-banner-url.com)
+
+## 🚀 Features
+
+- User Registration & Login with JWT authentication
+- Create, Edit, and Delete Blog Posts
+- Markdown support for blog content
+- Image Upload using `Multer`
+- Responsive UI built with React
+- RESTful API using Express.js and MongoDB
+
+## 🛠️ Tech Stack
+
+**Frontend**  
+- React.js  
+- Axios  
+- React Router DOM  
+
+**Backend**  
+- Node.js  
+- Express.js  
+- MongoDB with Mongoose  
+- JWT for Authentication  
+- Multer for File Uploads  
+- Bcrypt for Password Hashing  
+
+**Others**  
+- dotenv for environment variables  
+- CORS enabled  
+- Markdown parser
+
+## 📁 Project Structure
+
+
 
 ```
 mern-blog/
