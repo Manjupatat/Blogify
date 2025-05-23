@@ -1,8 +1,7 @@
-# MERN Blog App 📝
+# Blogify - MERN Blog App 📝
 
 A full-stack Blog Application built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js). Users can register, login, create, read, update, and delete blog posts. The app supports Markdown, image uploads, and authentication using JWT.
 
-//![mern-blog-banner](https://your-screenshot-or-banner-url.com)
 
 ## 🚀 Features
 
@@ -46,13 +45,6 @@ mern-blog/
 │ ├── uploads/
 │ ├── .env
 │ ├── server.js
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── App.js
-│ │ ├── index.js
 ├── README.md
 ```
 ## ⚙️ Installation
