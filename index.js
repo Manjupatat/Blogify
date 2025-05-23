@@ -12,7 +12,11 @@ const app=express()
 const mongoose=require('mongoose')
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/blogify').then(e =>{
+// mongoose.connect('mongodb://127.0.0.1:27017/blogify').then(e =>{
+//     console.log('mongodb  is connected')
+// })
+
+mongoose.connect('mongodb+srv://manjupatat80:Manju@123@blogify.pnbfyf0.mongodb.net/?retryWrites=true&w=majority&appName=Blogify').then(e =>{
     console.log('mongodb  is connected')
 })
 
