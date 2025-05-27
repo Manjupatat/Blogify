@@ -31,7 +31,7 @@ A full-stack Blog Application built with the **MERN stack** (MongoDB, Express.js
 
 
 ```
-mern-blog/
+Blogify/
 ├── controllers/
 ├── models/
 ├── routes/
